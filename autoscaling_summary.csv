@@ -1,0 +1,5 @@
+strategy,sla_overload_pct,unmet_demand_pct,wasted_capacity_pct,avg_servers,scaling_actions
+Threshold,0.0,0.0,35.8252,8.3478,3
+Naive,0.0,0.0,33.3969,8.0435,16
+Holt,0.0,0.0,33.755,8.087,12
+Hybrid,0.0,0.0,34.8065,8.2174,12

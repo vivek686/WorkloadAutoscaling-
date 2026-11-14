@@ -1,0 +1,9 @@
+train_split,model,runs,mean_rmse,std_rmse,mean_mape_pct,std_mape_pct,identical_across_runs
+0.5,Holt,5,11.1877,0.0,15.0882,0.0,True
+0.5,Naive,5,10.9644,0.0,12.9211,0.0,True
+0.6,Holt,5,8.8866,0.0,13.297,0.0,True
+0.6,Naive,5,7.2904,0.0,10.658,0.0,True
+0.7,Holt,5,8.526,0.0,12.4242,0.0,True
+0.7,Naive,5,7.224,0.0,10.218,0.0,True
+0.8,Holt,5,8.2553,0.0,13.2512,0.0,True
+0.8,Naive,5,6.1098,0.0,9.8935,0.0,True

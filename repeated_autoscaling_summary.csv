@@ -1,0 +1,5 @@
+strategy,runs,mean_sla_overload_pct,std_sla_overload_pct,mean_unmet_demand_pct,std_unmet_demand_pct,mean_wasted_capacity_pct,std_wasted_capacity_pct,mean_avg_servers,std_avg_servers,identical_across_runs
+Holt,5,0.0,0.0,0.0,0.0,33.755,0.0,8.087,0.0,True
+Hybrid,5,0.0,0.0,0.0,0.0,34.8065,0.0,8.2174,0.0,True
+Naive,5,0.0,0.0,0.0,0.0,33.3969,0.0,8.0435,0.0,True
+Threshold,5,0.0,0.0,0.0,0.0,35.8252,0.0,8.3478,0.0,True

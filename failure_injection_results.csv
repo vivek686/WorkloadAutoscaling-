@@ -1,0 +1,13 @@
+scenario,strategy,sla_overload_pct,unmet_demand_pct,wasted_capacity_pct,avg_servers,scaling_actions,invalid_values_fixed
+Normal Workload,Threshold,0.0,0.0,35.8252,8.3478,3,0
+Normal Workload,Naive,0.0,0.0,33.3969,8.0435,16,0
+Normal Workload,Holt,0.0,0.0,33.755,8.087,12,0
+Normal Workload,Hybrid,0.0,0.0,34.8065,8.2174,12,0
+Injected Workload Spike,Threshold,4.3478,3.9499,36.8564,9.3043,5,0
+Injected Workload Spike,Naive,4.3478,4.6607,36.1298,9.1304,18,0
+Injected Workload Spike,Holt,4.3478,4.6607,37.3237,9.3043,14,0
+Injected Workload Spike,Hybrid,4.3478,4.6607,39.5823,9.6522,14,0
+Bad Data (Sanitized),Threshold,0.0,0.0,37.048,8.5652,3,4
+Bad Data (Sanitized),Naive,0.0,0.0,33.325,8.087,17,4
+Bad Data (Sanitized),Holt,0.0,0.0,33.6815,8.1304,12,4
+Bad Data (Sanitized),Hybrid,0.0,0.0,34.7287,8.2609,12,4
